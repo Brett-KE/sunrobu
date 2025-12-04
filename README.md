@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Lovable project
 
 ## Project info
@@ -52,6 +53,8 @@ npm run dev
 
 ## What technologies are used for this project?
 
+=======
+>>>>>>> 030bc1c11e5c2764ea7deb23fe144c388c9f19c5
 This project is built with:
 
 - Vite
@@ -59,6 +62,7 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
+<<<<<<< HEAD
 
 ## How can I deploy this project?
 
@@ -71,3 +75,5 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+=======
+>>>>>>> 030bc1c11e5c2764ea7deb23fe144c388c9f19c5

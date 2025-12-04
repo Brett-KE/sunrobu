@@ -16,7 +16,7 @@ const About = () => {
               treatment systems across Kenya and East Africa.
             </p>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Under the leadership of <span className="font-semibold text-foreground">Eng. Urbanus Mbinyo</span>, 
+              Under the leadership of <span className="font-semibold text-foreground">Eng. Urbanus Mbindyo</span>, 
               our team of certified engineers delivers high-quality, reliable solutions 
               for industrial, commercial, and agricultural applications.
             </p>

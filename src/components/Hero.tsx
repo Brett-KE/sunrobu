@@ -39,13 +39,19 @@ const Hero = () => {
               Our Services
               <ArrowRight className="ml-2" size={20} />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 text-lg px-8"
+            <a
+              href="https://wa.me/254719714182"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Request a Quote
-            </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20 text-lg px-8"
+              >
+                Request a Quote
+              </Button>
+            </a>
           </div>
         </div>
       </div>

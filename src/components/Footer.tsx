@@ -64,7 +64,7 @@ const Footer = () => {
 
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-white/60 text-sm">
           <p>&copy; {new Date().getFullYear()} Sunrobu Africa. All rights reserved.</p>
-          <p className="mt-2">Managing Director: Eng. Urbanus Mbinyo</p>
+          <p className="mt-2">Managing Director: Eng. Urbanus Mbindyo</p>
         </div>
       </div>
     </footer>

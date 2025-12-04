@@ -37,7 +37,13 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="bg-gradient-primary">Get a Quote</Button>
+            <a
+              href="https://wa.me/254719714182"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-gradient-primary">Get a Quote</Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -62,7 +68,14 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="w-full bg-gradient-primary">Get a Quote</Button>
+            <a
+              href="https://wa.me/254719714182"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+            >
+              <Button className="w-full bg-gradient-primary">Get a Quote</Button>
+            </a>
           </div>
         )}
       </div>

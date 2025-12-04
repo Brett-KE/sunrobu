@@ -1,8 +1,9 @@
-import { Zap, Gauge, Sun, Droplets, Cog, Sprout } from "lucide-react";
+import { Zap, Gauge, Sun, Droplets, Cog, Sprout, Flame } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import industrialElectricalImg from "@/assets/service-industrial-electrical.jpg";
 import automationImg from "@/assets/service-automation.jpg";
 import solarImg from "@/assets/service-solar.jpg";
+import solarWaterHeatingImg from "@/assets/solar-water-heating.jpg";
 import waterTreatmentImg from "@/assets/service-water-treatment.jpg";
 import boreholeImg from "@/assets/service-borehole.jpg";
 import irrigationImg from "@/assets/service-irrigation.jpg";
@@ -25,9 +26,16 @@ const services = [
   {
     icon: Sun,
     title: "Solar Energy Solutions",
-    description: "Borehole solarization, solar backup systems, and solar water heating installations.",
+    description: "Borehole solarization, solar backup systems, and comprehensive solar power installations.",
     color: "text-primary-light",
     image: solarImg,
+  },
+  {
+    icon: Flame,
+    title: "Solar Water Heating Systems",
+    description: "Efficient solar water heating solutions for residential, commercial, and industrial applications.",
+    color: "text-primary",
+    image: solarWaterHeatingImg,
   },
   {
     icon: Droplets,
